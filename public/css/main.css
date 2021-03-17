@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Dancing+Script&display=swap");
 
 .main .img-field {
-  background: url("Homepage/public/images/home.jpg");
+  background: url("../images/home.jpg");
   width: 100%;
   background-size: cover;
   background-position: 50%;
