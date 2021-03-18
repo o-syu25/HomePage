@@ -1,6 +1,10 @@
 @import url("https://fonts.googleapis.com/css?family=Dancing+Script&display=swap");
 @import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300&display=swap');
 
+.main {
+  padding-bottom: 10%;
+}
+
 /* img-field */
   .main .img-field {
     background: url("../images/home.jpg");
@@ -92,8 +96,8 @@
 
   .contents .skill li img {
     margin-right: 5%;
-    width: 80px;
-    height: 80px;
+    width: 50px;
+    height: 50px;
   }
 
   .contents .skill li .text h3 {
