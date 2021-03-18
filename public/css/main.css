@@ -71,8 +71,8 @@
     padding: 0 5%;
   }
 
-/* contents list */
-  .contents ul {
+/* contents skill list */
+  .contents .skill {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -81,26 +81,35 @@
     padding: 0;
   }
 
-  .contents ul li {
+  .contents .skill li {
     width: 45%;
     margin: 2%;
   }
 
-  .contents ul li {
+  .contents .skill li {
     display: flex;
   }
 
-  .contents ul li img {
+  .contents .skill li img {
     margin-right: 5%;
     width: 80px;
     height: 80px;
   }
 
-  .contents ul li .text h3 {
+  .contents .skill li .text h3 {
     margin: 5px 0 0;
   }
 
-  .contents ul li .text p {
+  .contents .skill li .text p {
     margin: 5px 0;
     line-height: 1.5;
+  }
+
+/* Contact */
+  .contents p {
+    text-align: center;
+  }
+
+  .contents p a{
+    color: rgb(195, 32, 79);
   }
