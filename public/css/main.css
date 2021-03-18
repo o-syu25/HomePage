@@ -113,3 +113,13 @@
   .contents p a{
     color: rgb(195, 32, 79);
   }
+
+@media(max-width: 600px){
+  .contents .skill {
+    flex-direction: column;
+  }
+
+  .contents .skill li {
+    width: 100%;
+  }
+}
